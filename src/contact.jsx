@@ -5,7 +5,12 @@ import Layout from "./component/layout/layout"
 const Contact = () => {
 return (
     <Layout>
-<h1 className="text-3xl text-blue-400 font-bold"> contact</h1>
+        <div className="w-screen h-screen">
+<h1 className=" absolute left-5bottom-1/2 text-3xl0 font-bold text-white"> Contact
+<hr className="rounded-3xl bg-white w-96 h-0.5 absolute -bottom-1/2 "/> 
+<a href="mailto:tisvi@icloud.com" className="font-medium text-white hover:underline absolute top-10 left-5">  tisvi@icloud.com</a>
+</h1>
+</div>
 </Layout>
 )}
 export default Contact

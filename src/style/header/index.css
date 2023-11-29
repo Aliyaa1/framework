@@ -1,6 +1,20 @@
 a {
   text-decoration: none;
 }
+#root {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(64, 64, 64, 1) 51%,
+    rgba(149, 149, 149, 1) 74%
+  );
+}
+/* a:hover {
+  color: black;
+
+  border-radius: 15%;
+} */
 /* header {
   background: rgb(203, 180, 203);
 } */
